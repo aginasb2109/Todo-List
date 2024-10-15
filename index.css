@@ -1,0 +1,79 @@
+body{
+    margin:0;
+    padding:0;
+    background:url("purplebg.jpg");
+    background-repeat:round;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.container{
+    width:250px;
+    height:320px;
+    margin:50px auto;
+    background-color:rgba(255, 255, 255, 0.4);
+    padding:20px;
+    color:black;
+    box-shadow:30px;
+    border-radius:20px;
+    border-color: cadetblue 4px;
+    margin-bottom:30px;
+    overflow-y: auto;
+   
+    
+
+}   
+
+
+
+.container input{
+    font-size: 1.5em;
+    width:100%;
+    border:rgb(254, 252, 252) 2px solid;
+    border-radius:20px;
+    padding-top:5px 5px;
+    
+
+
+
+
+    
+}
+.container h3{
+    font-size:25px;
+    text-align: center;
+    color:ghostwhite;
+    
+
+   
+}
+.btn{
+    text-align: center;
+    margin-top: 12px;
+    
+
+}
+button{
+    background-color:rgba(24, 4, 66, 0.4);
+    color:white;
+    padding:5px 10px;
+    border-radius:10px;
+    
+}
+input:hover{
+    cursor:pointer;
+}
+button:hover{
+    cursor:pointer
+}
+
+.content{
+    color:black;
+    font-size:20px;
+    cursor:grab;
+    
+    
+}
+.content p{
+    word-wrap: break-word;
+    color: beige;
+}
